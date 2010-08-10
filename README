@@ -1,0 +1,18 @@
+FluidDB Fluid Monitor
+
+Some proof-of-concept code that shows how to connect an Arduino to FluidDB. In
+this case we're measuring the moisture reading of a flower-pot. :-)
+
+This is very early-stage stuff and we have plans to build something much more
+modular and robust that includes documentation and examples - but you have to
+start somewhere...
+
+To make it work please make sure you set the values in the line that currently reads:
+
+  char user_pass[] = "USERNAME:PASSWORD";
+
+with the appropriate username / password values.
+
+For more information about FluidDB see: http://fluidinfo.com/
+
+Both authors attend Northackton: http://northackton.stdin.co.uk/blog/
