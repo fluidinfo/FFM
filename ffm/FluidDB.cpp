@@ -55,6 +55,8 @@ int FluidDB::call(const char* method, const char* uri, const char* mime,
   socket.print(uri);
   socket.println(" HTTP/1.0");
   
+  // set user-agent
+  socket.println("User-Agent: Arduino FluidDB library 0.1");
   
   // Add basic auth
   socket.print("Authorization: Basic ");
